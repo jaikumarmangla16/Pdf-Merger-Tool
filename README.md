@@ -1,49 +1,61 @@
-# PDF Merger
 
-A simple Python script to merge multiple PDF files into a single PDF using [PyPDF2](https://pypdf2.readthedocs.io/).
+# 🧩 PDF Merger Tool
 
-## Features
+A simple command-line utility written in Python that merges multiple PDF files into a single PDF document using `PyPDF2`.
 
-- Merge any number of PDF files interactively.
-- Outputs a single merged PDF named `merged-pdf.pdf`.
+## 📦 Features
 
-## Requirements
+- Merge any number of PDF files
+- Input filenames dynamically via terminal
+- Saves the merged file as `merged-pdf.pdf`
 
-- Python 3.x
-- [PyPDF2](https://pypdf2.readthedocs.io/)
+## 🛠️ Requirements
 
-## Installation
+- Python 3.7+
+- PyPDF2 library
 
-Install PyPDF2 using pip:
+Install the required library using pip:
 
-```sh
+```bash
 pip install PyPDF2
 ```
 
-## Usage
+## 🚀 How to Use
 
-1. Place the PDF files you want to merge in the same directory as `main.py`.
+1. Place your PDF files in the same directory as the script.
 2. Run the script:
 
-```sh
-python main.py
+```bash
+python your_script_name.py
 ```
 
-3. Enter the number of PDFs to merge when prompted.
-4. Enter the filenames (including `.pdf` extension) as prompted.
+3. Enter the number of PDF files you want to merge.
+4. Enter the names of the PDF files (including the `.pdf` extension) one by one.
 
-The merged PDF will be saved as `merged-pdf.pdf` in the same directory.
+Example:
 
-## Example
-
-```
-Enter the number of PDFs to merge: 2
-Enter the name of PDF 1: jai[1].pdf
-Enter the name of PDF 2: mpdf(1).pdf
-Merging jai[1].pdf...
-Merging mpdf(1).pdf...
+```bash
+Enter the number of PDFs to merge: 3
+Enter the name of PDF 1: file1.pdf
+Enter the name of PDF 2: file2.pdf
+Enter the name of PDF 3: file3.pdf
 ```
 
-## License
+The script will merge all the provided PDF files and create a new file named `merged-pdf.pdf`.
 
-This project is licensed under the MIT License.
+## 📂 Output
+
+The merged PDF will be saved in the same directory as:
+
+```
+merged-pdf.pdf
+```
+
+## 🧑‍💻 Author
+
+Developed by **Jai Kumar Mangla**  
+Python enthusiast & automation lover.
+
+## 📄 License
+
+This project is open-source and available under the [MIT License](LICENSE).
